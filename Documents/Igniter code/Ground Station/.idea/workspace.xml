@@ -38,6 +38,27 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.IgniterUI">
+    <configuration name="ArduinoConfigureWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IgniterUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GSModules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GSModules/ArduinoConfigureWindow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="GraphTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IgniterUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,10 +148,12 @@
       <item itemvalue="Python.GraphTest" />
       <item itemvalue="Python.menutest" />
       <item itemvalue="Python.MovingGraphTest" />
+      <item itemvalue="Python.ArduinoConfigureWindow" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.IgniterUI" />
+        <item itemvalue="Python.ArduinoConfigureWindow" />
         <item itemvalue="Python.GraphTest" />
         <item itemvalue="Python.MovingGraphTest" />
         <item itemvalue="Python.menutest" />
@@ -183,25 +206,34 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="339" y="128" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578714587771">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="0" y="0" key="#Notifications" timestamp="1579127591067">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="0" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1579127591067" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579122865835">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1579122865835" />
     <state x="339" y="128" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.-121.1920.1160@0.0.1920.1040" timestamp="1578714587771" />
-    <state width="936" height="273" key="GridCell.Tab.0.bottom" timestamp="1578803122684">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="617" height="163" key="GridCell.Tab.0.bottom" timestamp="1579127733428">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="617" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579127733428" />
     <state width="936" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-121.1920.1160@0.0.1920.1040" timestamp="1578803122684" />
-    <state width="936" height="273" key="GridCell.Tab.0.center" timestamp="1578803122684">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="617" height="163" key="GridCell.Tab.0.center" timestamp="1579127733428">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="617" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579127733428" />
     <state width="936" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-121.1920.1160@0.0.1920.1040" timestamp="1578803122684" />
-    <state width="936" height="273" key="GridCell.Tab.0.left" timestamp="1578803122684">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="617" height="163" key="GridCell.Tab.0.left" timestamp="1579127733428">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="617" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579127733428" />
     <state width="936" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-121.1920.1160@0.0.1920.1040" timestamp="1578803122684" />
-    <state width="936" height="273" key="GridCell.Tab.0.right" timestamp="1578803122684">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="617" height="163" key="GridCell.Tab.0.right" timestamp="1579127733428">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="617" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579127733428" />
     <state width="936" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-121.1920.1160@0.0.1920.1040" timestamp="1578803122684" />
     <state width="936" height="345" key="GridCell.Tab.1.bottom" timestamp="1578732085076">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -219,9 +251,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="936" height="345" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-121.1920.1160@0.0.1920.1040" timestamp="1578732085076" />
-    <state x="661" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1575513628087">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1579122829397">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579122829397" />
+    <state x="441" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1579122679768">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="441" y="224" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579122679768" />
     <state x="661" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-121.1920.1160@0.0.1920.1040" timestamp="1575513628086" />
     <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1578639620583">
       <screen x="0" y="0" width="1920" height="1040" />

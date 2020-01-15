@@ -14,7 +14,7 @@ COMSelector = [[sg.Text('COM Ports:')],
                [sg.Combo(values=ListComPorts.serial_ports(), enable_events=False, size=(20, 3), key='COM_Combo'),
                 sg.Button('Refresh', button_color=('Black', "#FDCB52"), key='COM_Refresh'),
                 sg.Button('Open', button_color=('White', "Red"), key='COM_Connect'),
-                sg.Button('Enquire', button_color=('White', 'Red'), key='COM_Enquire')]]
+                sg.Button('Enquire', button_color=('White', 'Red'), key='COM_Enquire'),]]
 
 # Raw Data Text Box
 rawDisplay = [[sg.Text('Raw Display', background_color='#2B2B2B', justification='center', size=(60, 4))],
@@ -56,6 +56,7 @@ dropdown_menu = [
     [sg.Menu(menu_def, tearoff=False, pad=(200, 1), key='dropdown')],
 ]
 
+#Work in progress, aiming for task manager style live graphs
 pressure_graph = [[sg.Graph(canvas_size=(400, 400),
         graph_bottom_left=(-105,-105),
         graph_top_right=(105,105),

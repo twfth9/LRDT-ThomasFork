@@ -29,7 +29,7 @@ from GSModules.Logging import Logger
 # Valve states
 isValveOpen = [False, False, False, False, False, False]
 # Create the Window and Finalize it. Then fullscreen
-window = sg.Window('RocketView', UIElements.layout, grab_anywhere=False)
+window = sg.Window('RocketView', UIElements.layout, grab_anywhere=False, resizable=True)
 
 # Declaring buffer string to store serial data
 buffer = ""
